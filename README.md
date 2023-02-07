@@ -3,7 +3,7 @@
 ## Week 1 (7 Feb)
 - Tech setup
 - Python basics 
-- API & Web crawling basics
+- API & Web scraping basics
 
 
 
@@ -19,7 +19,7 @@
 
 ## Week 4 (28 Feb) 
 - Regular expression 
-- Web crawling continued 
+- Web scraping continued 
 
 
 ## Week 5 (7 Mar) 
