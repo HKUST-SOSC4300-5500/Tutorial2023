@@ -19,19 +19,18 @@
 
 ## Week 4 (28 Feb) 
 - Regular expression 
-- Web scraping continued 
 
 
 ## Week 5 (7 Mar) 
-- Text cleaning; exploratory analysis
+- Text cleaning
 
 
 ## Week 6 (14 Mar)
-- Topic modelling
-
+- Word embedding
 
 ## Week 7 (21 Mar)
-- Word embedding 
+- Sentiment Analysis
+- Topic modelling
 
 
 ## Week 8 (28 Mar)
