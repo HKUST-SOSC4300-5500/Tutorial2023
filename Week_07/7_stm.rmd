@@ -1,0 +1,148 @@
+---
+title: "STM (Lecture 9)"
+output: html_document
+---
+
+# Let us try STM
+
+THe official package has a nice and clean vignette so that you can follow
+
+<https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf>
+
+And it's github
+
+<https://github.com/bstewart/stm>
+
+## reading in documents
+
+As the authors explained clearly:
+
+> If you have your documents already converted to term-document matrices you can ingest them using readCorpus(). If you just have raw texts you will want to start with textProcessor().
+
+I have taken a corpuse from quanteda called `gadarian`. It's from this article
+
+> Gadarian, Shana Kushner, and Bethany Albertson. "Anxiety, immigration, and the search for information." Political Psychology 35.2 (2014): 133-164.
+
+The experiment had those in the treatment condition write about what made them anxious about immigration.
+
+-   The control condition just had subjects write about immigration.
+
+We can compare how political party differences let people write their open-ended responese differently.
+
+Key variables:
+
+-   treatment: A numeric vector indicating treatment condition
+    -   treated: read things such as "Gangs in the United States: How Illegal" or "Immigrants Complicate Law Enforcement: Why Unskilled Immigrants Hurt America"
+    -   Control: real non-immigration related stories
+-   pid_rep: from 0 to 6; 6=Strong Dem, 0=Strong Rep
+
+```{r}
+library("quanteda")
+library("stm")
+gadarian <- gadarian
+data <- corpus(gadarian, text_field = 'open.ended.response')
+summary(data)
+```
+
+First, use quanteda package to clean data and construct *document-term* matrix (since we already learned). `STM` package can also allow you to doi document-term matrix. You can follow the vignette to see how to do that in `STM`
+
+```{r}
+docvars(data)
+docvars(data)$text <- as.character(data) # make text part of the metadata
+docvars(data)$treated <- ifelse(gadarian$treatment == 1, "treated", "control")
+docvars(data)$party = ifelse(data$pid_rep == 0.5, "neutral", ifelse(data$pid_rep < 0.5, "Rep", "Dem"))
+
+data_dfm <- dfm(data, stem = TRUE, remove = stopwords('english'),
+           remove_punct = TRUE) %>% dfm_trim(min_count = 2)
+```
+
+STM and quenteda takes different types of document-term matrix internally.
+
+We transform the document-term matrix to STM's format
+
+```{r}
+out <- convert(data_dfm, to = 'stm')
+```
+
+## fiting topic model
+
+First, I did not include covariates at all. So we are fitting a vanilla LDA model.
+
+```{r}
+gadarian_3_lda <- stm(documents = out$documents,
+                 vocab = out$vocab,
+                 K = 3)
+labelTopics(gadarian_3_lda,  n = 20)
+```
+
+plot topics
+
+```{r}
+plot(gadarian_3_lda)
+```
+
+## topic prevalance
+
+do topics vary by ideology?
+
+```{r}
+gadarian_3 <- stm(documents = out$documents,
+                 vocab = out$vocab,
+                 data = out$meta,
+                prevalence = ~ pid_rep ,
+                 K = 3, verbose = FALSE)
+
+## explicity estimate effect of covariates on topic proportions
+prep_3 <- estimateEffect(1:3 ~ pid_rep, gadarian_3,
+                        meta = out$meta)
+summary(prep_3)
+```
+
+```{r}
+labelTopics(gadarian_3, n = 10)
+```
+
+```{r}
+# plot differences between treatment/control
+plot(prep_3, covariate = "pid_rep",  model = gadarian_3, method =  "continuous")
+```
+
+## plot differences between treatment/control, as well as by party identification, for one topic only
+
+these is an interaction effect.
+
+```{r}
+## oly 
+prep_topic1only <- estimateEffect(c(1) ~ treated * pid_rep, gadarian_3,
+                        meta = out$meta)
+summary(prep_topic1only)
+
+plot(prep_topic1only, covariate = "pid_rep",  model = gadarian_3, method =  "continuous", moderator = "treated", moderator.value = "treated",  linecol = "blue",printlegend = F, ylim = c(0, .5))
+
+plot(prep_topic1only, covariate = "pid_rep",  model = gadarian_3, method =  "continuous", moderator = "treated", moderator.value = "control",  linecol = "red",printlegend = F, add = T, ylim = c(0,.5))
+
+legend(0.3, 0.2, c("Treated", "Control"), lwd = 2, col = c("blue", "red"))
+
+```
+
+## topical content differences
+
+Note that I am modeling content differences
+
+```{r}
+gadarian_3 <- stm(documents = out$documents,
+                 vocab = out$vocab,
+                 data = out$meta,
+                content = ~ treated ,
+                 K = 3, verbose = FALSE)
+
+## explicity estimate effect of covariates on topic proportions
+prep_3 <- estimateEffect(1:3 ~ treated, gadarian_3,
+                        meta = out$meta)
+```
+
+Then plot topic differences, with respect to the third topic.
+
+```{r}
+plot(gadarian_3, type = "perspectives", topics = 3, width = 20, text.cex = 3)
+```
