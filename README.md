@@ -29,15 +29,16 @@
 - Word embedding
 
 ## Week 7 (21 Mar)
+- Structural Topic Modelling
+
+## Week 8 (28 Mar)
 - Sentiment Analysis
 - Topic modelling
 
-
-## Week 8 (28 Mar)
+## Week 9 (4 Apr)
 - Network basics & visualization 
 
-
-## Week 9 (4 Apr)
+## Week 10 (18 Apr)
 - Network simulation; Twitter interactions
 
 

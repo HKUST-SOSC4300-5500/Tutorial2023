@@ -139,6 +139,7 @@ gadarian_3 <- stm(documents = out$documents,
 ## explicity estimate effect of covariates on topic proportions
 prep_3 <- estimateEffect(1:3 ~ treated, gadarian_3,
                         meta = out$meta)
+summary(prep_3)
 ```
 
 Then plot topic differences, with respect to the third topic.
