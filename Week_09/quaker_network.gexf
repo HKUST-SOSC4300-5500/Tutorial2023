@@ -1,0 +1,1384 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-04-04">
+    <creator>NetworkX 3.0</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="historical_significance" type="string" />
+      <attribute id="1" title="gender" type="string" />
+      <attribute id="2" title="birth_year" type="string" />
+      <attribute id="3" title="death_year" type="string" />
+      <attribute id="4" title="sdfb_id" type="string" />
+      <attribute id="5" title="degree" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Joseph Wyeth" label="Joseph Wyeth">
+        <attvalues>
+          <attvalue for="0" value="religious writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1663" />
+          <attvalue for="3" value="1731" />
+          <attvalue for="4" value="10013191" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Alexander Skene of Newtyle" label="Alexander Skene of Newtyle">
+        <attvalues>
+          <attvalue for="0" value="local politician and author" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1621" />
+          <attvalue for="3" value="1694" />
+          <attvalue for="4" value="10011149" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="James Logan" label="James Logan">
+        <attvalues>
+          <attvalue for="0" value="colonial official and scholar" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1674" />
+          <attvalue for="3" value="1751" />
+          <attvalue for="4" value="10007567" />
+          <attvalue for="5" value="4" />
+        </attvalues>
+      </node>
+      <node id="Dorcas Erbery" label="Dorcas Erbery">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1656" />
+          <attvalue for="3" value="1659" />
+          <attvalue for="4" value="10003983" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lilias Skene" label="Lilias Skene">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher and poet" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1626" />
+          <attvalue for="3" value="1697" />
+          <attvalue for="4" value="10011152" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="William Mucklow" label="William Mucklow">
+        <attvalues>
+          <attvalue for="0" value="religious writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1630" />
+          <attvalue for="3" value="1713" />
+          <attvalue for="4" value="10008595" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Thomas Salthouse" label="Thomas Salthouse">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1630" />
+          <attvalue for="3" value="1691" />
+          <attvalue for="4" value="10010643" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="William Dewsbury" label="William Dewsbury">
+        <attvalues>
+          <attvalue for="0" value="Quaker activist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1621" />
+          <attvalue for="3" value="1688" />
+          <attvalue for="4" value="10003478" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="John Audland" label="John Audland">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1630" />
+          <attvalue for="3" value="1664" />
+          <attvalue for="4" value="10000411" />
+          <attvalue for="5" value="6" />
+        </attvalues>
+      </node>
+      <node id="Richard Claridge" label="Richard Claridge">
+        <attvalues>
+          <attvalue for="0" value="Quaker minister and schoolmaster" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1649" />
+          <attvalue for="3" value="1723" />
+          <attvalue for="4" value="10002469" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="William Bradford" label="William Bradford">
+        <attvalues>
+          <attvalue for="0" value="printer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1663" />
+          <attvalue for="3" value="1752" />
+          <attvalue for="4" value="10001445" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="Fettiplace Bellers" label="Fettiplace Bellers">
+        <attvalues>
+          <attvalue for="0" value="philosophical writer and playwright" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1687" />
+          <attvalue for="3" value="1750" />
+          <attvalue for="4" value="10000933" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="John Bellers" label="John Bellers">
+        <attvalues>
+          <attvalue for="0" value="political economist and cloth merchant" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1654" />
+          <attvalue for="3" value="1725" />
+          <attvalue for="4" value="10000934" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Isabel Yeamans" label="Isabel Yeamans">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1637" />
+          <attvalue for="3" value="1704" />
+          <attvalue for="4" value="10013226" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="George Fox the younger" label="George Fox the younger">
+        <attvalues>
+          <attvalue for="0" value="religious writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1551" />
+          <attvalue for="3" value="1661" />
+          <attvalue for="4" value="10004523" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="George Fox" label="George Fox">
+        <attvalues>
+          <attvalue for="0" value=" a founder of the Religious Society of Friends (Quakers)" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1624" />
+          <attvalue for="3" value="1691" />
+          <attvalue for="4" value="10004524" />
+          <attvalue for="5" value="22" />
+        </attvalues>
+      </node>
+      <node id="John Stubbs" label="John Stubbs">
+        <attvalues>
+          <attvalue for="0" value="Quaker minister" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1618" />
+          <attvalue for="3" value="1675" />
+          <attvalue for="4" value="10011695" />
+          <attvalue for="5" value="5" />
+        </attvalues>
+      </node>
+      <node id="Anne Camm" label="Anne Camm">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1627" />
+          <attvalue for="3" value="1705" />
+          <attvalue for="4" value="10001967" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="John Camm" label="John Camm">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1605" />
+          <attvalue for="3" value="1657" />
+          <attvalue for="4" value="10001968" />
+          <attvalue for="5" value="4" />
+        </attvalues>
+      </node>
+      <node id="Thomas Camm" label="Thomas Camm">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1640" />
+          <attvalue for="3" value="1708" />
+          <attvalue for="4" value="10001969" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="Katharine Evans" label="Katharine Evans">
+        <attvalues>
+          <attvalue for="0" value="Quaker missionary" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1618" />
+          <attvalue for="3" value="1692" />
+          <attvalue for="4" value="10004036" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lydia Lancaster" label="Lydia Lancaster">
+        <attvalues>
+          <attvalue for="0" value="Quaker minister" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1683" />
+          <attvalue for="3" value="1761" />
+          <attvalue for="4" value="10007110" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Samuel Clarridge" label="Samuel Clarridge">
+        <attvalues>
+          <attvalue for="0" value="Quaker activist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1631" />
+          <attvalue for="3" value="1704" />
+          <attvalue for="4" value="10002504" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Thomas Lower" label="Thomas Lower">
+        <attvalues>
+          <attvalue for="0" value="Quaker activist and physician" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1633" />
+          <attvalue for="3" value="1720" />
+          <attvalue for="4" value="10007626" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Gervase Benson" label="Gervase Benson">
+        <attvalues>
+          <attvalue for="0" value="Quaker leader" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1569" />
+          <attvalue for="3" value="1679" />
+          <attvalue for="4" value="10000972" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Stephen Crisp" label="Stephen Crisp">
+        <attvalues>
+          <attvalue for="0" value="Quaker activist and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1628" />
+          <attvalue for="3" value="1692" />
+          <attvalue for="4" value="10003022" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="James Claypoole" label="James Claypoole">
+        <attvalues>
+          <attvalue for="0" value="merchant and pioneer settler in America" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1634" />
+          <attvalue for="3" value="1687" />
+          <attvalue for="4" value="10002513" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Thomas Holme" label="Thomas Holme">
+        <attvalues>
+          <attvalue for="0" value="Quaker missionary" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1626" />
+          <attvalue for="3" value="1666" />
+          <attvalue for="4" value="10006100" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="John Freame" label="John Freame">
+        <attvalues>
+          <attvalue for="0" value="banker and lobbyist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1665" />
+          <attvalue for="3" value="1745" />
+          <attvalue for="4" value="10004564" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="John Swinton" label="John Swinton">
+        <attvalues>
+          <attvalue for="0" value="politician" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1620" />
+          <attvalue for="3" value="1679" />
+          <attvalue for="4" value="10011742" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="William Mead" label="William Mead">
+        <attvalues>
+          <attvalue for="0" value="Quaker patron and merchant" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1627" />
+          <attvalue for="3" value="1713" />
+          <attvalue for="4" value="10008161" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Henry Pickworth" label="Henry Pickworth">
+        <attvalues>
+          <attvalue for="0" value="religious controversialist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1673" />
+          <attvalue for="3" value="1738" />
+          <attvalue for="4" value="10009697" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="John Crook" label="John Crook">
+        <attvalues>
+          <attvalue for="0" value="Quaker leader and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1616" />
+          <attvalue for="3" value="1699" />
+          <attvalue for="4" value="10003063" />
+          <attvalue for="5" value="4" />
+        </attvalues>
+      </node>
+      <node id="Gilbert Latey" label="Gilbert Latey">
+        <attvalues>
+          <attvalue for="0" value="Quaker activist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1626" />
+          <attvalue for="3" value="1705" />
+          <attvalue for="4" value="10007166" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ellis Hookes" label="Ellis Hookes">
+        <attvalues>
+          <attvalue for="0" value="Quaker administrator" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1635" />
+          <attvalue for="3" value="1681" />
+          <attvalue for="4" value="10006146" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Joseph Besse" label="Joseph Besse">
+        <attvalues>
+          <attvalue for="0" value="historian of Quakerism" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1683" />
+          <attvalue for="3" value="1757" />
+          <attvalue for="4" value="10001027" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="James Nayler" label="James Nayler">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1618" />
+          <attvalue for="3" value="1660" />
+          <attvalue for="4" value="10008713" />
+          <attvalue for="5" value="16" />
+        </attvalues>
+      </node>
+      <node id="Elizabeth Hooten" label="Elizabeth Hooten">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1562" />
+          <attvalue for="3" value="1672" />
+          <attvalue for="4" value="10006153" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="George Whitehead" label="George Whitehead">
+        <attvalues>
+          <attvalue for="0" value="Quaker leader and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1637" />
+          <attvalue for="3" value="1724" />
+          <attvalue for="4" value="10012813" />
+          <attvalue for="5" value="13" />
+        </attvalues>
+      </node>
+      <node id="John Whitehead" label="John Whitehead">
+        <attvalues>
+          <attvalue for="0" value="Quaker minister and preacher" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1630" />
+          <attvalue for="3" value="1696" />
+          <attvalue for="4" value="10012815" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="William Crouch" label="William Crouch">
+        <attvalues>
+          <attvalue for="0" value="Quaker leader and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1628" />
+          <attvalue for="3" value="1711" />
+          <attvalue for="4" value="10003087" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Benjamin Furly" label="Benjamin Furly">
+        <attvalues>
+          <attvalue for="0" value="merchant and religious writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1636" />
+          <attvalue for="3" value="1714" />
+          <attvalue for="4" value="10004625" />
+          <attvalue for="5" value="10" />
+        </attvalues>
+      </node>
+      <node id="Silvanus Bevan" label="Silvanus Bevan">
+        <attvalues>
+          <attvalue for="0" value="apothecary" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1691" />
+          <attvalue for="3" value="1765" />
+          <attvalue for="4" value="10001041" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Robert Rich" label="Robert Rich">
+        <attvalues>
+          <attvalue for="0" value="Quaker adherent and sectary" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1607" />
+          <attvalue for="3" value="1679" />
+          <attvalue for="4" value="10010260" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="John Whiting" label="John Whiting">
+        <attvalues>
+          <attvalue for="0" value="Quaker bibliographer and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1656" />
+          <attvalue for="3" value="1722" />
+          <attvalue for="4" value="10012829" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Christopher Taylor" label="Christopher Taylor">
+        <attvalues>
+          <attvalue for="0" value="religious writer and schoolmaster" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1614" />
+          <attvalue for="3" value="1686" />
+          <attvalue for="4" value="10011811" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Thomas Lawson" label="Thomas Lawson">
+        <attvalues>
+          <attvalue for="0" value="Quaker minister and botanist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1630" />
+          <attvalue for="3" value="1691" />
+          <attvalue for="4" value="10007210" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Richard Farnworth" label="Richard Farnworth">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1630" />
+          <attvalue for="3" value="1666" />
+          <attvalue for="4" value="10004141" />
+          <attvalue for="5" value="6" />
+        </attvalues>
+      </node>
+      <node id="William Coddington" label="William Coddington">
+        <attvalues>
+          <attvalue for="0" value="merchant and official in America" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1601" />
+          <attvalue for="3" value="1678" />
+          <attvalue for="4" value="10002606" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Thomas Taylor" label="Thomas Taylor">
+        <attvalues>
+          <attvalue for="0" value="Quaker minister and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1617" />
+          <attvalue for="3" value="1682" />
+          <attvalue for="4" value="10011824" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Richard Vickris" label="Richard Vickris">
+        <attvalues>
+          <attvalue for="0" value="religious writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1590" />
+          <attvalue for="3" value="1700" />
+          <attvalue for="4" value="10012350" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Robert Barclay" label="Robert Barclay">
+        <attvalues>
+          <attvalue for="0" value="religious writer and colonial governor" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1648" />
+          <attvalue for="3" value="1690" />
+          <attvalue for="4" value="10054848" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="Jane Sowle" label="Jane Sowle">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1631" />
+          <attvalue for="3" value="1711" />
+          <attvalue for="4" value="10011331" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Tace Sowle" label="Tace Sowle">
+        <attvalues>
+          <attvalue for="0" value="printer and bookseller" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1666" />
+          <attvalue for="3" value="1749" />
+          <attvalue for="4" value="10011332" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="Leonard Fell" label="Leonard Fell">
+        <attvalues>
+          <attvalue for="0" value="Quaker missionary and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1624" />
+          <attvalue for="3" value="1701" />
+          <attvalue for="4" value="10004169" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Margaret Fell" label="Margaret Fell">
+        <attvalues>
+          <attvalue for="0" value="Quaker leader" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1614" />
+          <attvalue for="3" value="1702" />
+          <attvalue for="4" value="10004170" />
+          <attvalue for="5" value="13" />
+        </attvalues>
+      </node>
+      <node id="George Bishop" label="George Bishop">
+        <attvalues>
+          <attvalue for="0" value="government official and religious writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1558" />
+          <attvalue for="3" value="1668" />
+          <attvalue for="4" value="10001097" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Elizabeth Leavens" label="Elizabeth Leavens">
+        <attvalues>
+          <attvalue for="0" value="Quaker missionary" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1555" />
+          <attvalue for="3" value="1665" />
+          <attvalue for="4" value="10007246" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Thomas Curtis" label="Thomas Curtis">
+        <attvalues>
+          <attvalue for="0" value="Quaker schismatic" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1602" />
+          <attvalue for="3" value="1712" />
+          <attvalue for="4" value="10003161" />
+          <attvalue for="5" value="5" />
+        </attvalues>
+      </node>
+      <node id="Alice Curwen" label="Alice Curwen">
+        <attvalues>
+          <attvalue for="0" value="Quaker missionary" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1619" />
+          <attvalue for="3" value="1679" />
+          <attvalue for="4" value="10003162" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Alexander Parker" label="Alexander Parker">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher and author" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1628" />
+          <attvalue for="3" value="1689" />
+          <attvalue for="4" value="10009307" />
+          <attvalue for="5" value="6" />
+        </attvalues>
+      </node>
+      <node id="John Wilkinson" label="John Wilkinson">
+        <attvalues>
+          <attvalue for="0" value="Quaker schismatic" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1652" />
+          <attvalue for="3" value="1683" />
+          <attvalue for="4" value="10012893" />
+          <attvalue for="5" value="5" />
+        </attvalues>
+      </node>
+      <node id="Thomas Aldam" label="Thomas Aldam">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1616" />
+          <attvalue for="3" value="1660" />
+          <attvalue for="4" value="10000099" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="David Barclay of Ury" label="David Barclay of Ury">
+        <attvalues>
+          <attvalue for="0" value="soldier and politician" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1610" />
+          <attvalue for="3" value="1686" />
+          <attvalue for="4" value="10000621" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="David Barclay" label="David Barclay">
+        <attvalues>
+          <attvalue for="0" value="merchant" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1682" />
+          <attvalue for="3" value="1769" />
+          <attvalue for="4" value="10000622" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sir Charles Wager" label="Sir Charles Wager">
+        <attvalues>
+          <attvalue for="0" value="naval officer and politician" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1666" />
+          <attvalue for="3" value="1743" />
+          <attvalue for="4" value="10012403" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="George Keith" label="George Keith">
+        <attvalues>
+          <attvalue for="0" value="Quaker schismatic and Church of England clergyman" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1638" />
+          <attvalue for="3" value="1716" />
+          <attvalue for="4" value="10006784" />
+          <attvalue for="5" value="8" />
+        </attvalues>
+      </node>
+      <node id="James Parnel" label="James Parnel">
+        <attvalues>
+          <attvalue for="0" value="Quaker martyr" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1636" />
+          <attvalue for="3" value="1656" />
+          <attvalue for="4" value="10009347" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Peter Collinson" label="Peter Collinson">
+        <attvalues>
+          <attvalue for="0" value="botanist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1694" />
+          <attvalue for="3" value="1768" />
+          <attvalue for="4" value="10002694" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Franciscus Mercurius van Helmont" label="Franciscus Mercurius van Helmont">
+        <attvalues>
+          <attvalue for="0" value="physician and cabbalist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1614" />
+          <attvalue for="3" value="1698" />
+          <attvalue for="4" value="10005781" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="William Caton" label="William Caton">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1636" />
+          <attvalue for="3" value="1665" />
+          <attvalue for="4" value="10002203" />
+          <attvalue for="5" value="5" />
+        </attvalues>
+      </node>
+      <node id="Francis Howgill" label="Francis Howgill">
+        <attvalues>
+          <attvalue for="0" value="Quaker activist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1618" />
+          <attvalue for="3" value="1669" />
+          <attvalue for="4" value="10006305" />
+          <attvalue for="5" value="7" />
+        </attvalues>
+      </node>
+      <node id="Richard Hubberthorne" label="Richard Hubberthorne">
+        <attvalues>
+          <attvalue for="0" value="Quaker activist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1628" />
+          <attvalue for="3" value="1662" />
+          <attvalue for="4" value="10006314" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="William Ames" label="William Ames">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1552" />
+          <attvalue for="3" value="1662" />
+          <attvalue for="4" value="10000175" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="William Rogers" label="William Rogers">
+        <attvalues>
+          <attvalue for="0" value="Quaker schismatic" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1601" />
+          <attvalue for="3" value="1711" />
+          <attvalue for="4" value="10010417" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Isaac Norris" label="Isaac Norris">
+        <attvalues>
+          <attvalue for="0" value="colonial official and merchant" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1671" />
+          <attvalue for="3" value="1735" />
+          <attvalue for="4" value="10008884" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Anthony Sharp" label="Anthony Sharp">
+        <attvalues>
+          <attvalue for="0" value="Quaker leader" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1643" />
+          <attvalue for="3" value="1707" />
+          <attvalue for="4" value="10010941" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="Mary Fisher" label="Mary Fisher">
+        <attvalues>
+          <attvalue for="0" value="Quaker missionary" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1623" />
+          <attvalue for="3" value="1698" />
+          <attvalue for="4" value="10004290" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Anne Conway Viscountess Conway and Killultagh" label="Anne Conway Viscountess Conway and Killultagh">
+        <attvalues>
+          <attvalue for="0" value="philosopher" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1631" />
+          <attvalue for="3" value="1679" />
+          <attvalue for="4" value="10002755" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Samuel Fisher" label="Samuel Fisher">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1604" />
+          <attvalue for="3" value="1665" />
+          <attvalue for="4" value="10004292" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Francis Bugg" label="Francis Bugg">
+        <attvalues>
+          <attvalue for="0" value="Quaker apostate" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1640" />
+          <attvalue for="3" value="1727" />
+          <attvalue for="4" value="10001737" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Sarah Gibbons" label="Sarah Gibbons">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher in America" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1634" />
+          <attvalue for="3" value="1659" />
+          <attvalue for="4" value="10004811" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="William Tomlinson" label="William Tomlinson">
+        <attvalues>
+          <attvalue for="0" value="religious writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1650" />
+          <attvalue for="3" value="1696" />
+          <attvalue for="4" value="10011989" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Humphrey Norton" label="Humphrey Norton">
+        <attvalues>
+          <attvalue for="0" value="Quaker missionary and author" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1655" />
+          <attvalue for="3" value="1660" />
+          <attvalue for="4" value="10008917" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="William Gibson" label="William Gibson">
+        <attvalues>
+          <attvalue for="0" value="Quaker leader" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1628" />
+          <attvalue for="3" value="1684" />
+          <attvalue for="4" value="10004827" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Gideon Wanton" label="Gideon Wanton">
+        <attvalues>
+          <attvalue for="0" value="merchant and colonial governor" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1693" />
+          <attvalue for="3" value="1767" />
+          <attvalue for="4" value="10012509" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="John Wanton" label="John Wanton">
+        <attvalues>
+          <attvalue for="0" value="merchant and colonial governor" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1672" />
+          <attvalue for="3" value="1740" />
+          <attvalue for="4" value="10012510" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Grace Chamber" label="Grace Chamber">
+        <attvalues>
+          <attvalue for="0" value="Quaker minister" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1676" />
+          <attvalue for="3" value="1762" />
+          <attvalue for="4" value="10002274" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mary Prince" label="Mary Prince">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1569" />
+          <attvalue for="3" value="1679" />
+          <attvalue for="4" value="10009959" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="John Bartram" label="John Bartram">
+        <attvalues>
+          <attvalue for="0" value="botanist and explorer in America" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1699" />
+          <attvalue for="3" value="1777" />
+          <attvalue for="4" value="10000745" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Edward Haistwell" label="Edward Haistwell">
+        <attvalues>
+          <attvalue for="0" value="merchant" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1658" />
+          <attvalue for="3" value="1709" />
+          <attvalue for="4" value="10005359" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="John ap John" label="John ap John">
+        <attvalues>
+          <attvalue for="0" value="Quaker leader" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1625" />
+          <attvalue for="3" value="1697" />
+          <attvalue for="4" value="10000243" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="John Rous" label="John Rous">
+        <attvalues>
+          <attvalue for="0" value="Quaker missionary" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1585" />
+          <attvalue for="3" value="1695" />
+          <attvalue for="4" value="10010488" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Anthony Pearson" label="Anthony Pearson">
+        <attvalues>
+          <attvalue for="0" value="Quaker administrator" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1627" />
+          <attvalue for="3" value="1666" />
+          <attvalue for="4" value="10009470" />
+          <attvalue for="5" value="5" />
+        </attvalues>
+      </node>
+      <node id="Solomon Eccles" label="Solomon Eccles">
+        <attvalues>
+          <attvalue for="0" value="musician and Quaker missionary" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1617" />
+          <attvalue for="3" value="1682" />
+          <attvalue for="4" value="10003859" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="John Burnyeat" label="John Burnyeat">
+        <attvalues>
+          <attvalue for="0" value="Quaker minister" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1631" />
+          <attvalue for="3" value="1690" />
+          <attvalue for="4" value="10001815" />
+          <attvalue for="5" value="4" />
+        </attvalues>
+      </node>
+      <node id="Edward Burrough" label="Edward Burrough">
+        <attvalues>
+          <attvalue for="0" value="Quaker activist and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1633" />
+          <attvalue for="3" value="1663" />
+          <attvalue for="4" value="10001818" />
+          <attvalue for="5" value="9" />
+        </attvalues>
+      </node>
+      <node id="Rebecca Travers" label="Rebecca Travers">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher and writer" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1609" />
+          <attvalue for="3" value="1688" />
+          <attvalue for="4" value="10012062" />
+          <attvalue for="5" value="4" />
+        </attvalues>
+      </node>
+      <node id="William Edmundson" label="William Edmundson">
+        <attvalues>
+          <attvalue for="0" value="Quaker leader" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1627" />
+          <attvalue for="3" value="1712" />
+          <attvalue for="4" value="10003882" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Sarah Cheevers" label="Sarah Cheevers">
+        <attvalues>
+          <attvalue for="0" value="Quaker missionary" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1608" />
+          <attvalue for="3" value="1664" />
+          <attvalue for="4" value="10002354" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Edward Pyott" label="Edward Pyott">
+        <attvalues>
+          <attvalue for="0" value="parliamentarian army officer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1560" />
+          <attvalue for="3" value="1670" />
+          <attvalue for="4" value="10010036" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Daniel Quare" label="Daniel Quare">
+        <attvalues>
+          <attvalue for="0" value="maker of clocks, watches, and barometers" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1648" />
+          <attvalue for="3" value="1724" />
+          <attvalue for="4" value="10010037" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="John Penington" label="John Penington">
+        <attvalues>
+          <attvalue for="0" value="Quaker apologist and controversialist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1655" />
+          <attvalue for="3" value="1710" />
+          <attvalue for="4" value="10009526" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mary Penington" label="Mary Penington">
+        <attvalues>
+          <attvalue for="0" value="Quaker and writer" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1623" />
+          <attvalue for="3" value="1682" />
+          <attvalue for="4" value="10009527" />
+          <attvalue for="5" value="4" />
+        </attvalues>
+      </node>
+      <node id="Charles Marshall" label="Charles Marshall">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher and apothecary" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1637" />
+          <attvalue for="3" value="1698" />
+          <attvalue for="4" value="10007992" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="Humphrey Woolrich" label="Humphrey Woolrich">
+        <attvalues>
+          <attvalue for="0" value="religious writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1633" />
+          <attvalue for="3" value="1707" />
+          <attvalue for="4" value="10013112" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="William Penn" label="William Penn">
+        <attvalues>
+          <attvalue for="0" value="Quaker leader and founder of Pennsylvania" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1644" />
+          <attvalue for="3" value="1718" />
+          <attvalue for="4" value="10009531" />
+          <attvalue for="5" value="18" />
+        </attvalues>
+      </node>
+      <node id="Mary Pennyman" label="Mary Pennyman">
+        <attvalues>
+          <attvalue for="0" value="" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1630" />
+          <attvalue for="3" value="1701" />
+          <attvalue for="4" value="10009535" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Dorothy Waugh" label="Dorothy Waugh">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1636" />
+          <attvalue for="3" value="1666" />
+          <attvalue for="4" value="10012614" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="David Lloyd" label="David Lloyd">
+        <attvalues>
+          <attvalue for="0" value="lawyer and politician in America" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1656" />
+          <attvalue for="3" value="1731" />
+          <attvalue for="4" value="10007509" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+      <node id="Lewis Morris" label="Lewis Morris">
+        <attvalues>
+          <attvalue for="0" value="politician in America" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1671" />
+          <attvalue for="3" value="1746" />
+          <attvalue for="4" value="10008534" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Martha Simmonds" label="Martha Simmonds">
+        <attvalues>
+          <attvalue for="0" value="Quaker and author" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1624" />
+          <attvalue for="3" value="1665" />
+          <attvalue for="4" value="10011100" />
+          <attvalue for="5" value="3" />
+        </attvalues>
+      </node>
+      <node id="John Story" label="John Story">
+        <attvalues>
+          <attvalue for="0" value="Quaker schismatic" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1571" />
+          <attvalue for="3" value="1681" />
+          <attvalue for="4" value="10011613" />
+          <attvalue for="5" value="6" />
+        </attvalues>
+      </node>
+      <node id="Thomas Story" label="Thomas Story">
+        <attvalues>
+          <attvalue for="0" value="Quaker minister and journal writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1670" />
+          <attvalue for="3" value="1742" />
+          <attvalue for="4" value="10011614" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Thomas Ellwood" label="Thomas Ellwood">
+        <attvalues>
+          <attvalue for="0" value="religious controversialist" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1639" />
+          <attvalue for="3" value="1713" />
+          <attvalue for="4" value="10003945" />
+          <attvalue for="5" value="8" />
+        </attvalues>
+      </node>
+      <node id="William Simpson" label="William Simpson">
+        <attvalues>
+          <attvalue for="0" value="Quaker preacher" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1627" />
+          <attvalue for="3" value="1671" />
+          <attvalue for="4" value="10011114" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="Samuel Bownas" label="Samuel Bownas">
+        <attvalues>
+          <attvalue for="0" value="Quaker minister and writer" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1677" />
+          <attvalue for="3" value="1753" />
+          <attvalue for="4" value="10001390" />
+          <attvalue for="5" value="1" />
+        </attvalues>
+      </node>
+      <node id="John Perrot" label="John Perrot">
+        <attvalues>
+          <attvalue for="0" value="Quaker schismatic" />
+          <attvalue for="1" value="male" />
+          <attvalue for="2" value="1555" />
+          <attvalue for="3" value="1665" />
+          <attvalue for="4" value="10009584" />
+          <attvalue for="5" value="7" />
+        </attvalues>
+      </node>
+      <node id="Hannah Stranger" label="Hannah Stranger">
+        <attvalues>
+          <attvalue for="0" value="Quaker missionary" />
+          <attvalue for="1" value="female" />
+          <attvalue for="2" value="1656" />
+          <attvalue for="3" value="1671" />
+          <attvalue for="4" value="10011632" />
+          <attvalue for="5" value="2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Joseph Wyeth" target="Thomas Ellwood" id="0" />
+      <edge source="Alexander Skene of Newtyle" target="Lilias Skene" id="1" />
+      <edge source="James Logan" target="Peter Collinson" id="2" />
+      <edge source="James Logan" target="John Bartram" id="3" />
+      <edge source="James Logan" target="William Penn" id="4" />
+      <edge source="James Logan" target="David Lloyd" id="5" />
+      <edge source="Dorcas Erbery" target="James Nayler" id="6" />
+      <edge source="William Mucklow" target="George Fox" id="7" />
+      <edge source="Thomas Salthouse" target="George Fox" id="8" />
+      <edge source="Thomas Salthouse" target="Margaret Fell" id="9" />
+      <edge source="William Dewsbury" target="Edward Burrough" id="10" />
+      <edge source="William Dewsbury" target="George Fox" id="11" />
+      <edge source="William Dewsbury" target="John Crook" id="12" />
+      <edge source="John Audland" target="John Camm" id="13" />
+      <edge source="John Audland" target="Francis Howgill" id="14" />
+      <edge source="John Audland" target="Edward Pyott" id="15" />
+      <edge source="John Audland" target="Charles Marshall" id="16" />
+      <edge source="John Audland" target="George Fox" id="17" />
+      <edge source="John Audland" target="Anne Camm" id="18" />
+      <edge source="Richard Claridge" target="Joseph Besse" id="19" />
+      <edge source="Richard Claridge" target="William Penn" id="20" />
+      <edge source="William Bradford" target="George Keith" id="21" />
+      <edge source="William Bradford" target="William Penn" id="22" />
+      <edge source="William Bradford" target="Tace Sowle" id="23" />
+      <edge source="Fettiplace Bellers" target="John Bellers" id="24" />
+      <edge source="Isabel Yeamans" target="William Penn" id="25" />
+      <edge source="George Fox the younger" target="Margaret Fell" id="26" />
+      <edge source="George Fox" target="George Keith" id="27" />
+      <edge source="George Fox" target="Francis Howgill" id="28" />
+      <edge source="George Fox" target="Ellis Hookes" id="29" />
+      <edge source="George Fox" target="William Mead" id="30" />
+      <edge source="George Fox" target="Elizabeth Hooten" id="31" />
+      <edge source="George Fox" target="Margaret Fell" id="32" />
+      <edge source="George Fox" target="John Crook" id="33" />
+      <edge source="George Fox" target="George Whitehead" id="34" />
+      <edge source="George Fox" target="Benjamin Furly" id="35" />
+      <edge source="George Fox" target="James Nayler" id="36" />
+      <edge source="George Fox" target="Edward Burrough" id="37" />
+      <edge source="George Fox" target="John Wilkinson" id="38" />
+      <edge source="George Fox" target="Thomas Ellwood" id="39" />
+      <edge source="George Fox" target="William Coddington" id="40" />
+      <edge source="George Fox" target="John Stubbs" id="41" />
+      <edge source="George Fox" target="John Perrot" id="42" />
+      <edge source="George Fox" target="Leonard Fell" id="43" />
+      <edge source="George Fox" target="William Penn" id="44" />
+      <edge source="John Stubbs" target="Benjamin Furly" id="45" />
+      <edge source="John Stubbs" target="William Caton" id="46" />
+      <edge source="John Stubbs" target="Samuel Fisher" id="47" />
+      <edge source="John Stubbs" target="John Burnyeat" id="48" />
+      <edge source="Anne Camm" target="Thomas Camm" id="49" />
+      <edge source="John Camm" target="Charles Marshall" id="50" />
+      <edge source="John Camm" target="Thomas Camm" id="51" />
+      <edge source="John Camm" target="Edward Pyott" id="52" />
+      <edge source="Thomas Camm" target="John Story" id="53" />
+      <edge source="Katharine Evans" target="Sarah Cheevers" id="54" />
+      <edge source="Lydia Lancaster" target="Grace Chamber" id="55" />
+      <edge source="Samuel Clarridge" target="Anthony Sharp" id="56" />
+      <edge source="Samuel Clarridge" target="James Claypoole" id="57" />
+      <edge source="Thomas Lower" target="Margaret Fell" id="58" />
+      <edge source="Gervase Benson" target="James Nayler" id="59" />
+      <edge source="Gervase Benson" target="Anthony Pearson" id="60" />
+      <edge source="Stephen Crisp" target="James Parnel" id="61" />
+      <edge source="Stephen Crisp" target="William Caton" id="62" />
+      <edge source="Stephen Crisp" target="Benjamin Furly" id="63" />
+      <edge source="James Claypoole" target="William Penn" id="64" />
+      <edge source="Thomas Holme" target="William Gibson" id="65" />
+      <edge source="Thomas Holme" target="Elizabeth Leavens" id="66" />
+      <edge source="John Freame" target="David Barclay" id="67" />
+      <edge source="John Swinton" target="David Barclay of Ury" id="68" />
+      <edge source="William Mead" target="Margaret Fell" id="69" />
+      <edge source="Henry Pickworth" target="Francis Bugg" id="70" />
+      <edge source="John Crook" target="John Perrot" id="71" />
+      <edge source="John Crook" target="Edward Burrough" id="72" />
+      <edge source="Gilbert Latey" target="Edward Burrough" id="73" />
+      <edge source="Gilbert Latey" target="George Whitehead" id="74" />
+      <edge source="Joseph Besse" target="Samuel Bownas" id="75" />
+      <edge source="James Nayler" target="Francis Howgill" id="76" />
+      <edge source="James Nayler" target="Martha Simmonds" id="77" />
+      <edge source="James Nayler" target="Hannah Stranger" id="78" />
+      <edge source="James Nayler" target="Margaret Fell" id="79" />
+      <edge source="James Nayler" target="Richard Farnworth" id="80" />
+      <edge source="James Nayler" target="George Whitehead" id="81" />
+      <edge source="James Nayler" target="John Perrot" id="82" />
+      <edge source="James Nayler" target="Robert Rich" id="83" />
+      <edge source="James Nayler" target="Anthony Pearson" id="84" />
+      <edge source="James Nayler" target="Thomas Ellwood" id="85" />
+      <edge source="James Nayler" target="Edward Burrough" id="86" />
+      <edge source="James Nayler" target="Rebecca Travers" id="87" />
+      <edge source="James Nayler" target="William Tomlinson" id="88" />
+      <edge source="George Whitehead" target="George Keith" id="89" />
+      <edge source="George Whitehead" target="William Rogers" id="90" />
+      <edge source="George Whitehead" target="Francis Bugg" id="91" />
+      <edge source="George Whitehead" target="Richard Hubberthorne" id="92" />
+      <edge source="George Whitehead" target="Alexander Parker" id="93" />
+      <edge source="George Whitehead" target="John Whitehead" id="94" />
+      <edge source="George Whitehead" target="Daniel Quare" id="95" />
+      <edge source="George Whitehead" target="William Penn" id="96" />
+      <edge source="George Whitehead" target="John Story" id="97" />
+      <edge source="George Whitehead" target="Rebecca Travers" id="98" />
+      <edge source="William Crouch" target="Francis Howgill" id="99" />
+      <edge source="William Crouch" target="Edward Burrough" id="100" />
+      <edge source="Benjamin Furly" target="George Keith" id="101" />
+      <edge source="Benjamin Furly" target="James Parnel" id="102" />
+      <edge source="Benjamin Furly" target="Franciscus Mercurius van Helmont" id="103" />
+      <edge source="Benjamin Furly" target="Robert Barclay" id="104" />
+      <edge source="Benjamin Furly" target="Alexander Parker" id="105" />
+      <edge source="Benjamin Furly" target="William Caton" id="106" />
+      <edge source="Benjamin Furly" target="William Penn" id="107" />
+      <edge source="Silvanus Bevan" target="Daniel Quare" id="108" />
+      <edge source="Robert Rich" target="William Tomlinson" id="109" />
+      <edge source="John Whiting" target="Christopher Taylor" id="110" />
+      <edge source="Christopher Taylor" target="Thomas Taylor" id="111" />
+      <edge source="Thomas Lawson" target="Margaret Fell" id="112" />
+      <edge source="Thomas Lawson" target="Alexander Parker" id="113" />
+      <edge source="Richard Farnworth" target="Francis Howgill" id="114" />
+      <edge source="Richard Farnworth" target="Richard Hubberthorne" id="115" />
+      <edge source="Richard Farnworth" target="John Perrot" id="116" />
+      <edge source="Richard Farnworth" target="Margaret Fell" id="117" />
+      <edge source="Richard Farnworth" target="Anthony Pearson" id="118" />
+      <edge source="Richard Vickris" target="George Bishop" id="119" />
+      <edge source="Robert Barclay" target="George Keith" id="120" />
+      <edge source="Robert Barclay" target="David Barclay of Ury" id="121" />
+      <edge source="Jane Sowle" target="Tace Sowle" id="122" />
+      <edge source="Tace Sowle" target="William Penn" id="123" />
+      <edge source="Margaret Fell" target="William Caton" id="124" />
+      <edge source="Margaret Fell" target="William Penn" id="125" />
+      <edge source="Margaret Fell" target="Alexander Parker" id="126" />
+      <edge source="Margaret Fell" target="Elizabeth Leavens" id="127" />
+      <edge source="Margaret Fell" target="Anthony Pearson" id="128" />
+      <edge source="Thomas Curtis" target="Anthony Sharp" id="129" />
+      <edge source="Thomas Curtis" target="Mary Penington" id="130" />
+      <edge source="Thomas Curtis" target="Thomas Ellwood" id="131" />
+      <edge source="Thomas Curtis" target="William Simpson" id="132" />
+      <edge source="Thomas Curtis" target="John Story" id="133" />
+      <edge source="Alice Curwen" target="Rebecca Travers" id="134" />
+      <edge source="Alexander Parker" target="John Wilkinson" id="135" />
+      <edge source="Alexander Parker" target="Sir Charles Wager" id="136" />
+      <edge source="John Wilkinson" target="Charles Marshall" id="137" />
+      <edge source="John Wilkinson" target="Solomon Eccles" id="138" />
+      <edge source="John Wilkinson" target="John Story" id="139" />
+      <edge source="Thomas Aldam" target="Anthony Pearson" id="140" />
+      <edge source="Sir Charles Wager" target="Lewis Morris" id="141" />
+      <edge source="George Keith" target="Anne Conway Viscountess Conway and Killultagh" id="142" />
+      <edge source="George Keith" target="Franciscus Mercurius van Helmont" id="143" />
+      <edge source="George Keith" target="William Penn" id="144" />
+      <edge source="Peter Collinson" target="John Bartram" id="145" />
+      <edge source="William Caton" target="William Ames" id="146" />
+      <edge source="Francis Howgill" target="Martha Simmonds" id="147" />
+      <edge source="Francis Howgill" target="Edward Burrough" id="148" />
+      <edge source="William Rogers" target="Thomas Ellwood" id="149" />
+      <edge source="Isaac Norris" target="William Penn" id="150" />
+      <edge source="Anthony Sharp" target="William Edmundson" id="151" />
+      <edge source="Mary Fisher" target="John Perrot" id="152" />
+      <edge source="Mary Fisher" target="Mary Prince" id="153" />
+      <edge source="Sarah Gibbons" target="Dorothy Waugh" id="154" />
+      <edge source="Humphrey Norton" target="John Rous" id="155" />
+      <edge source="Gideon Wanton" target="John Wanton" id="156" />
+      <edge source="Mary Prince" target="John Perrot" id="157" />
+      <edge source="Edward Haistwell" target="William Penn" id="158" />
+      <edge source="John ap John" target="John Burnyeat" id="159" />
+      <edge source="Solomon Eccles" target="John Story" id="160" />
+      <edge source="John Burnyeat" target="William Edmundson" id="161" />
+      <edge source="John Burnyeat" target="William Penn" id="162" />
+      <edge source="Edward Burrough" target="John Perrot" id="163" />
+      <edge source="Edward Burrough" target="Thomas Ellwood" id="164" />
+      <edge source="Rebecca Travers" target="William Penn" id="165" />
+      <edge source="John Penington" target="Mary Penington" id="166" />
+      <edge source="Mary Penington" target="William Penn" id="167" />
+      <edge source="Mary Penington" target="Thomas Ellwood" id="168" />
+      <edge source="Humphrey Woolrich" target="Mary Pennyman" id="169" />
+      <edge source="William Penn" target="Thomas Story" id="170" />
+      <edge source="William Penn" target="David Lloyd" id="171" />
+      <edge source="Martha Simmonds" target="Hannah Stranger" id="172" />
+      <edge source="John Story" target="Thomas Ellwood" id="173" />
+    </edges>
+  </graph>
+</gexf>

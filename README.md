@@ -39,7 +39,10 @@
 - Network basics & visualization 
 
 ## Week 10 (18 Apr)
-- Network simulation; Twitter interactions
+- Twitter interaction network
+
+## Week 11 (25 Apr)
+- Small world simulation
 
 
 
