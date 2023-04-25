@@ -42,7 +42,8 @@
 - Twitter interaction network
 
 ## Week 11 (25 Apr)
-- Small world simulation
+- Network simulation
+- Image basics
 
 
 
